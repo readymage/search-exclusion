@@ -1,10 +1,4 @@
 <?php
-/**
- * Output noindex,nofollow meta tag.
- * Module is installed only on non-live envs (portal/drone); when present, we output the tag.
- *
- * @var \ReadyMage\NoindexNonprod\Block\MetaRobots $block
- * @copyright Scandiweb, Inc. All rights reserved.
- */
+/** @var \ReadyMage\NoindexNonprod\Block\MetaRobots $block */
 ?>
 <meta name="robots" content="<?= $block->escapeHtmlAttr($block->getMetaRobotsContent()) ?>"/>

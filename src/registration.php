@@ -1,9 +1,4 @@
 <?php
-/**
- * Noindex NonProd module registration.
- *
- * @copyright Scandiweb, Inc. All rights reserved.
- */
 
 declare(strict_types=1);
 
