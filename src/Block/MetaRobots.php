@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ReadyMage\NoindexNonprod\Block;
+namespace ReadyMage\SearchExclusion\Block;
 
 use Magento\Framework\View\Element\Template;
 

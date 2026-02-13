@@ -1,4 +1,4 @@
-# ReadyMage Noindex NonProd
+# ReadyMage Search Exclusion
 
 Magento 2 module that injects `<meta name="robots" content="noindex,nofollow">` in the frontend `<head>`.
 
@@ -14,12 +14,12 @@ Installation is gated by the build pipeline and portal: the module is only insta
 ## Installation (Composer)
 
 ```bash
-composer require readymage/noindex-nonprod
-bin/magento module:enable ReadyMage_NoindexNonprod
+composer require readymage/search-exclusion
+bin/magento module:enable ReadyMage_SearchExclusion
 bin/magento setup:upgrade
 ```
 
-For Readymage builds, the module is installed automatically for non-live environments via the `INSTALL_READYMAGE_NOINDEX_NONPROD` flag in drone-shared-cli.
+For Readymage builds, the module is installed automatically for non-live environments via the `INSTALL_READYMAGE_SEARCH_EXCLUSION` flag in drone-shared-cli.
 
 ## Requirements
 

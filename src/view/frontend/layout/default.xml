@@ -3,9 +3,9 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceBlock name="head.additional">
-            <block class="ReadyMage\NoindexNonprod\Block\MetaRobots"
-                   name="readymage.noindex.nonprod.meta"
-                   template="ReadyMage_NoindexNonprod::meta_robots.phtml"/>
+            <block class="ReadyMage\SearchExclusion\Block\MetaRobots"
+                   name="readymage.search.exclusion.meta"
+                   template="ReadyMage_SearchExclusion::meta_robots.phtml"/>
         </referenceBlock>
     </body>
 </page>

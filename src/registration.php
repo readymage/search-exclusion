@@ -6,6 +6,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'ReadyMage_NoindexNonprod',
+    'ReadyMage_SearchExclusion',
     __DIR__
 );
