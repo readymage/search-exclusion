@@ -1,0 +1,27 @@
+{
+    "name": "readymage/noindex-nonprod",
+    "description": "Injects noindex,nofollow meta tag on non-production environments. Install is gated by build/portal; when enabled, outputs the tag in head.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Scandiweb / Readymage",
+            "homepage": "https://www.scandiweb.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "magento/framework": "*",
+        "magento/module-store": "*",
+        "magento/module-theme": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ReadyMage\\NoindexNonprod\\": ""
+        }
+    }
+}

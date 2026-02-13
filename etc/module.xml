@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Noindex NonProd module configuration.
+ *
+ * @copyright Scandiweb, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="ReadyMage_NoindexNonprod" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Theme"/>
+            <module name="Magento_Store"/>
+        </sequence>
+    </module>
+</config>
