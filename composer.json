@@ -2,26 +2,25 @@
     "name": "readymage/search-exclusion",
     "description": "Injects noindex,nofollow meta tag on non-production environments. Install is gated by build/portal; when enabled, outputs the tag in head.",
     "type": "magento2-module",
-    "version": "1.0.0",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Scandiweb / Readymage",
-            "homepage": "https://www.scandiweb.com/"
-        }
+    "keywords": [
+        "magento2",
+        "ReadyMage"
+    ],
+    "license": [
+        "OSL-3.0"
     ],
     "require": {
-        "php": ">=7.4.0",
-        "magento/framework": "*",
-        "magento/module-store": "*",
-        "magento/module-theme": "*"
+        "magento/framework": "*"
+    },
+    "support": {
+        "email": "info@scandiweb.com"
     },
     "autoload": {
         "files": [
             "src/registration.php"
         ],
         "psr-4": {
-            "ReadyMage\\SearchExclusion\\": "src/"
+            "ReadyMage\\SearchExclusion\\": "src"
         }
     }
 }
