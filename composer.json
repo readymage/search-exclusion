@@ -9,6 +9,7 @@
     "license": [
         "OSL-3.0"
     ],
+    "minimum-stability": "stable",
     "require": {
         "magento/framework": "*"
     },

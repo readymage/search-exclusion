@@ -1,4 +1,5 @@
 <?php
 /** @var \ReadyMage\SearchExclusion\Block\MetaRobots $block */
+/** @var \Magento\Framework\Escaper $escaper */
 ?>
-<meta name="robots" content="<?= $block->escapeHtmlAttr($block->getMetaRobotsContent()) ?>"/>
+<meta name="robots" content="<?= $escaper->escapeHtmlAttr($block->getMetaRobotsContent()) ?>"/>
